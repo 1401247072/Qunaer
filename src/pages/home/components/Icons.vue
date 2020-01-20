@@ -84,9 +84,7 @@ export default {
     height: 0
     padding-bottom: 50%
   .icons
-    overflow: hidden
-    height: 0
-    padding-bottom: 50%
+    margin-top: .1rem
     .icon
       position: relative
       overflow: hidden
