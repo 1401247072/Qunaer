@@ -45,9 +45,9 @@ export default {
         overflow: hidden
         width: 100%
         height: 0
-        padding-bottom: 26.80%
+        padding-bottom: 26.75%
         background: #eee
-        //height: 31.25vm(兼容不好)
+        //height: 26.8vm(兼容不好)
       .swiper-img
           width: 100%
 </style>
