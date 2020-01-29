@@ -6,7 +6,7 @@
         {{item.title}}
       </div>
       <div v-show="nowIndex===index" class="item-child">
-        <detail-list :list="item.child"></detail-list>
+        <detail-list :list="item.children"></detail-list>
       </div>
     </div>
   </div>
