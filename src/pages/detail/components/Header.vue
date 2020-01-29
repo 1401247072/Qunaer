@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     handleScroll () {
-      const top = document.documentElement.scrollTop
+      const top = document.documentElement.scrollTop || document.body.scrollTop || window.pageYOffset
       if (top > 10) {
         let opacity = top / 140
         opacity = opacity > 1 ? 1 : opacity
@@ -61,7 +61,7 @@ export default {
       color: #fff
       font-size: .3rem
   .header-fixed
-    z-index: 2
+    z-index: 4
     position: fixed
     top: 0
     left: 0
